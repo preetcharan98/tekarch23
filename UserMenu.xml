@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke">
+
+<parameter name ="username" value="charan@singh.com"></parameter>
+<parameter name ="password" value="Qwerty321"></parameter>
+
+<listeners>
+       <listener class-name="com.testng.listeners.TestListener"></listener>
+</listeners>
+
+<test name="usermenudd">
+  <classes>
+  	<class name="com.testng.tests.UserMenutest"/>
+  </classes>
+ </test>
+</suite>
+
+
+
